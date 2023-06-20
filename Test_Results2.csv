@@ -1,0 +1,20 @@
+Model_Name,True_Positive,False_Negative,False_Positive,True_Negative,Precision,Sensitivity,Specificity,Negative_Predictive_Value,Accuracy,Balanced_Accuracy,F1_Score,MCC,ROC_Score,Cross_Val_Score
+LogisticRegression(),2072,5318,1530,5318,0.5752,0.2804,0.8761,0.6704,0.653,0.5782,0.377,0.196,0.5782,0.6525
+DecisionTreeClassifier(),5099,2291,2682,2291,0.6553,0.69,0.7828,0.8084,0.748,0.7364,0.6722,0.4682,0.7364,0.8198
+RandomForestClassifier(),5924,1466,694,1466,0.8951,0.8016,0.9438,0.8883,0.8906,0.8727,0.8458,0.7642,0.8727,0.9108
+KNeighborsClassifier(),4386,3004,3252,3004,0.5742,0.5935,0.7366,0.7517,0.683,0.6651,0.5837,0.328,0.6651,0.6878
+ExtraTreesClassifier(),5946,1444,357,1444,0.9434,0.8046,0.9711,0.8925,0.9088,0.8878,0.8685,0.8052,0.8878,0.9287
+BaggingClassifier(),5825,1565,2130,1565,0.7322,0.7882,0.8275,0.8672,0.8128,0.8079,0.7592,0.6075,0.8079,0.8353
+GaussianNB(),7378,12,10230,12,0.419,0.9984,0.1715,0.9944,0.4811,0.5849,0.5903,0.265,0.5849,0.4824
+"XGBClassifier(base_score=0.5, booster='gbtree', callbacks=None,
+              colsample_bylevel=1, colsample_bynode=1, colsample_bytree=1,
+              early_stopping_rounds=None, enable_categorical=False,
+              eval_metric=None, gamma=0, gpu_id=-1, grow_policy='depthwise',
+              importance_type=None, interaction_constraints='',
+              learning_rate=0.300000012, max_bin=256, max_cat_to_onehot=4,
+              max_delta_step=0, max_depth=6, max_leaves=0, min_child_weight=1,
+              missing=nan, monotone_constraints='()', n_estimators=100,
+              n_jobs=0, num_parallel_tree=1, predictor='auto', random_state=0,
+              reg_alpha=0, reg_lambda=1, ...)",2992,4398,1716,4398,0.6355,0.4049,0.861,0.7074,0.6902,0.6329,0.4946,0.3019,0.6329,0.7103
+GradientBoostingClassifier(),2134,5256,1413,5256,0.6016,0.2888,0.8856,0.6754,0.6621,0.5872,0.3902,0.2197,0.5872,0.665
+LGBMClassifier(),2397,4993,1407,4993,0.6301,0.3244,0.886,0.6866,0.6757,0.6052,0.4283,0.2582,0.6052,0.6858
